@@ -6,7 +6,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main>
-      <div className='text-gray-800'>
+      <div className='text-gray-800 m-10'>
         <div className='flex items-center flex-col mb-10'>
           <Image src={"/profile.jpeg"} alt='Foto de perfil' width={200} height={200} className='rounded-full my-3' />
           <h1 className='text-3xl font-extrabold mb-2'>Rodrigo Paula da Silva</h1>
@@ -25,7 +25,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='max-w-xl m-auto mb-5'>
+        <div className='max-w-xl m-auto mb-10'>
           <h2 className='text-xl font-extrabold mb-2'>Sobre mim</h2>
           <p className='text-justify mb-5'>
             Possuo experiência no mercado de trabalho desde o final de 2021 quando comecei meu estágio como desenvolvedor, trabalhando com PHP. 
@@ -38,6 +38,90 @@ export default function Home() {
             Recentemente fui aprovado no exame de certificação da AWS. Tenho me interessado também por NextJs, Docker, Kubernetes e DevOps.
             Meus hobbies são ouvir música e assitir futebol.
           </p>
+        </div>
+
+        <div className='max-w-xl m-auto mb-10'>
+          <h2 className='text-xl font-extrabold mb-2'>Experiência</h2>
+          <div>
+            <div className='mb-3'>
+              <p className='font-bold'>Desenvolvedor Web Full Stack</p>
+              <p>Digital One | 2022 - 2023</p>
+            </div>
+
+            <p>Atuou como desenvolvedor em Sistema de Atendimento (Chatbot).</p>
+            <ul className='list-disc pl-10 mb-3'>
+              <li>Correção de bugs</li>
+              <li>Implementação de novas funcionalidades (Node.JS, React)</li>
+            </ul>
+
+            <p>Atuou como desenvolvedor em Sistema ERP.</p>
+            <ul className='list-disc pl-10 mb-3'>
+              <li>Implementação de novo layout para loja virtual (HTML, CSS, JS)</li>
+              <li>Implementação de novas funcionalidades (PHP, Laravel)</li>
+              <li>Integração com métodos de pagamento (Mercado Pago)</li>
+              <li>Integração com serviços de frete (Correios)</li>
+            </ul>
+
+            <p>Responsável pelo desenvolvimento Full Stack de um sistema para assinatura eletrônica.</p>
+            <ul className='list-disc pl-10 mb-3'>
+              <li>API REST utilizando NestJS</li>
+              <li>Front-End utilizando React, Typescript</li>
+              <li>Importação de arquivos PDF</li>
+              <li>Posicionamento de assinaturas</li>
+              <li>Cadastro e autenticação de usuários</li>
+              <li>Envio de Email</li>
+              <li>Utilização de metodologias ágeis para para gerenciar o projeto.</li>
+            </ul>
+
+            <p>Responsável pelo desenvolvimento Front-End de uma aplicação para clínica odontológica utilizando React e Typescript.</p>
+            <ul className='list-disc pl-10 mb-3'>
+              <li>Cadastro e Autenticação de usuários</li>
+              <li>Cadastro de procedimentos</li>
+              <li>Upload de imagens</li>
+              <li>Entre outras funcionalidades</li>
+            </ul>                      
+          </div>
+
+          <div>
+            <div className='mb-3'>
+              <p className='font-bold'>Estágio em Desenvolvimento Web</p>
+              <p>Digital One | 2021</p>
+            </div>
+            <p>Desenvolvimento e manutenção de sites institucionais e blogs, utilizando PHP, CodeIgniter e MySQL.</p>
+          </div>
+        </div>
+
+        <div className='max-w-xl m-auto mb-10'>
+          <h2 className='text-xl font-extrabold mb-2'>Conhecimentos</h2>
+          <div className='flex gap-20'>
+            <ul>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>NestJS</li>
+              <li>React</li>
+              <li>Typescript</li>
+            </ul>
+            <ul>
+              <li>Jest</li>
+              <li>PHP</li>
+              <li>Laravel</li>
+              <li>MySQL</li>
+              <li>Docker</li>
+            </ul>
+            <ul>
+              <li>Git</li>
+              <li>AWS</li>
+              <li>Spring Boot</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className='max-w-xl m-auto mb-40'>
+          <h2 className='text-xl font-extrabold mb-2'>Contato</h2>
+          <ul>
+            <li>Email: rodrigopsdev@gmail.com</li>
+            <li>Whatsapp: +55 (44) 99132-7228</li>
+          </ul>
         </div>
       </div>
     </main>
