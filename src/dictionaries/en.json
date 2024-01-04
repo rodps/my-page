@@ -1,0 +1,73 @@
+{
+  "resumo": {
+    "titulo": "Full Stack Developer, Bachelor's Degree in Computer Science - UTFPR",
+    "subtitulo": "26 years old, Cianorte - PR (Brazil)"
+  },
+  "sobre": {
+    "titulo": "About me",
+    "texto": "I have experience in the industry since the end of 2021 when i started my internship as a developer, working with PHP. However, i started coding my first web applications in mid-2018 using Node.js. I've been using Node.js and React ever since, both at work and on personal projects. In 2015, i started my undergraduate course in Computer Science, where i was able to deepen my knowledge in algorithms, data structures, object orientation, networks, distributed systems, compilers, security and many other disciplines that increased my experience as a developer. Despite all the difficulties and problems along the way, I managed to complete my course in June 2023. I recently passed the AWS certification exam. Also, i have been interested in NextJs, Docker, Kubernetes and DevOps. My hobbies are listening to music and watching football."
+  },
+  "experiencia": {
+    "titulo": "Professional Experience",
+    "empresas": [
+      {
+        "cargo": "Full Stack Web Developer",
+        "empresa": "Digital One | 2022 - 2023",
+        "projetos": [
+          {
+            "descricao": "Worked as a developer in Chatbot Application.",
+            "pontos": [
+              "Bug fixes",
+              "Implementation of new features (Node.JS, React)"
+            ]
+          },
+          {
+            "descricao": "Worked as a developer in ERP System.",
+            "pontos": [
+              "Implementation of a new layout for ecommerce (HTML, CSS, JS)",
+              "Implementation of new features (PHP, Laravel)",
+              "Integration with payment methods (Mercado Pago)",
+              "Integration with shipping services (Correios)"
+            ]
+          },
+          {
+            "descricao": "Responsible for the Full-Stack development of an Electronic Signature App.",
+            "pontos": [
+              "API REST using NestJS",
+              "Front-End using React, Typescript",
+              "PDF file import",
+              "Signature positioning",
+              "User registration and authentication",
+              "Email sending",
+              "Use of agile methodologies to manage the project"
+            ]
+          },
+          {
+            "descricao": "Responsible for the Front-End development of an application for a dental clinic using React and Typescript",
+            "pontos": [
+              "User registration and authentication",
+              "Registration of procedures",
+              "Images upload",
+              "Other features"
+            ]
+          }
+        ]
+      },
+      {
+        "cargo": "Web Development Internship",
+        "empresa": "Digital One | 2021",
+        "projetos": [
+          {
+            "descricao": "Development and maintenance of websites and blogs, using PHP, CodeIgniter and MySQL."
+          }
+        ]
+      }
+    ]
+  },
+  "conhecimento": {
+    "titulo": "Knowledge"
+  },
+  "contato": {
+    "titulo": "Contact"
+  }
+}

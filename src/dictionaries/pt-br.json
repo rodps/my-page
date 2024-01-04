@@ -1,0 +1,73 @@
+{
+  "resumo": {
+    "titulo": "Desenvolvedor Full Stack, Bacharel em Ciência da Computação - UTFPR",
+    "subtitulo": "26 anos, Cianorte - PR"
+  },
+  "sobre": {
+    "titulo": "Sobre mim",
+    "texto": "Possuo experiência no mercado de trabalho desde o final de 2021 quando comecei meu estágio como desenvolvedor, trabalhando com PHP. No entanto, comecei a escrever minhas primeiras aplicações para Web em meados de 2018 utilizando Node.js. Tenho utilizado Node.js e React desde então, tanto no trabalho como em projetos pessoais. Em 2015, eu começava meu curso de graduação em Ciência da Computação, onde pude aprofundar meus conhecimentos em algoritmos, estrutura de dados, orientação a objetos, redes, sistemas distribuídos, compiladores, segurança e tantas outras disciplinas que aumentaram minha bagagem como desenvolvedor. Apesar de todas as dificuldades e problemas durante o percurso, consegui concluir meu curso em Junho de 2023. Recentemente fui aprovado no exame de certificação da AWS. Além disso, tenho me interessado também por NextJs, Docker, Kubernetes e DevOps. Meus hobbies são ouvir música e assitir futebol."
+  },
+  "experiencia": {
+    "titulo": "Experiência",
+    "empresas": [
+      {
+        "cargo": "Desenvolvedor Web Full Stack",
+        "empresa": "Digital One | 2022 - 2023",
+        "projetos": [
+          {
+            "descricao": "Atuou como desenvolvedor em Sistema de Atendimento (Chatbot).",
+            "pontos": [
+              "Correção de bugs",
+              "Implementação de novas funcionalidades (Node.JS, React)"
+            ]
+          },
+          {
+            "descricao": "Atuou como desenvolvedor em Sistema ERP.",
+            "pontos": [
+              "Implementação de novo layout para loja virtual (HTML, CSS, JS)",
+              "Implementação de novas funcionalidades (PHP, Laravel)",
+              "Integração com métodos de pagamento (Mercado Pago)",
+              "Integração com serviços de frete (Correios)"
+            ]
+          },
+          {
+            "descricao": "Responsável pelo desenvolvimento Full Stack de um sistema para assinatura eletrônica.",
+            "pontos": [
+              "API REST utilizando NestJS",
+              "Front-End utilizando React, Typescript",
+              "Importação de arquivos PDF",
+              "Posicionamento de assinaturas",
+              "Cadastro e autenticação de usuários",
+              "Envio de Email",
+              "Utilização de metodologias ágeis para para gerenciar o projeto."
+            ]
+          },
+          {
+            "descricao": "Responsável pelo desenvolvimento Front-End de uma aplicação para clínica odontológica utilizando React e Typescript.",
+            "pontos": [
+              "Cadastro e Autenticação de usuários",
+              "Cadastro de procedimentos",
+              "Upload de imagens",
+              "Entre outras funcionalidades"
+            ]
+          }
+        ]
+      },
+      {
+        "cargo": "Estágio em Desenvolvimento Web",
+        "empresa": "Digital One | 2021",
+        "projetos": [
+          {
+            "descricao": "Desenvolvimento e manutenção de sites institucionais e blogs, utilizando PHP, CodeIgniter e MySQL."
+          }
+        ]
+      }
+    ]
+  },
+  "conhecimento": {
+    "titulo": "Conhecimentos"
+  },
+  "contato": {
+    "titulo": "Contato"
+  }
+}
