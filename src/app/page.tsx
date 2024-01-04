@@ -6,6 +6,10 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main>
+      <nav className='fixed bg-slate-800 w-full h-10 top-0 flex justify-between items-center text-white text-sm px-5 gap-3'>
+        <div>Rodrigo Paula da Silva | Software Engineer | Full Stack Developer</div>
+        <div><a href="#">BR</a> | <a href="#">EN</a></div>
+      </nav>
       <div className='text-gray-800 m-10'>
         <div className='flex items-center flex-col mb-10'>
           <Image src={"/profile.jpeg"} alt='Foto de perfil' width={200} height={200} className='rounded-full my-3' />
@@ -44,8 +48,8 @@ export default function Home() {
           <h2 className='text-xl font-extrabold mb-2'>Experiência</h2>
           <div>
             <div className='mb-3'>
-              <p className='font-bold'>Desenvolvedor Web Full Stack</p>
-              <p>Digital One | 2022 - 2023</p>
+              <p className='font-bold italic'>Desenvolvedor Web Full Stack</p>
+              <p className='italic'>Digital One | 2022 - 2023</p>
             </div>
 
             <p>Atuou como desenvolvedor em Sistema de Atendimento (Chatbot).</p>
@@ -84,8 +88,8 @@ export default function Home() {
 
           <div>
             <div className='mb-3'>
-              <p className='font-bold'>Estágio em Desenvolvimento Web</p>
-              <p>Digital One | 2021</p>
+              <p className='font-bold italic'>Estágio em Desenvolvimento Web</p>
+              <p className='italic'>Digital One | 2021</p>
             </div>
             <p>Desenvolvimento e manutenção de sites institucionais e blogs, utilizando PHP, CodeIgniter e MySQL.</p>
           </div>
@@ -93,7 +97,7 @@ export default function Home() {
 
         <div className='max-w-xl m-auto mb-10'>
           <h2 className='text-xl font-extrabold mb-2'>Conhecimentos</h2>
-          <div className='flex gap-20'>
+          <div className='flex gap-20 italic'>
             <ul>
               <li>Node.js</li>
               <li>Express</li>
@@ -115,15 +119,16 @@ export default function Home() {
             </ul>
           </div>
         </div>
+      </div>
 
-        <div className='max-w-xl m-auto mb-40'>
-          <h2 className='text-xl font-extrabold mb-2'>Contato</h2>
+      <footer className='w-100 bg-slate-800 text-white py-10'>
+        <div className='max-w-xl m-auto'>
+          <h2 className='text-xl font-extrabold'>Contato</h2>
           <ul>
-            <li>Email: rodrigopsdev@gmail.com</li>
-            <li>Whatsapp: +55 (44) 99132-7228</li>
+            <li>Email: rodrigops.dev@gmail.com</li>
           </ul>
         </div>
-      </div>
+      </footer>
     </main>
   )
 }
