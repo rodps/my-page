@@ -14,13 +14,10 @@ export default async function Home({
   const dict = await getDictionary(lang)
   return (
     <main>
-      <nav className='fixed bg-slate-800 w-full h-10 top-0 flex justify-between items-center text-white text-sm px-5 gap-3'>
-        <div>Rodrigo Paula da Silva <span className='hidden sm:inline-block'>| Software Engineer | Full Stack Web Developer</span></div>
-        <div>
-          <Link href="?lang=pt-br" scroll={false}>BR</Link> | <Link href="?lang=en" scroll={false}>EN</Link>
+      <div className='text-gray-800 m-5 mt-10'>
+        <div className='max-w-xl m-auto mb-10'>
+          <Link href="?lang=pt-br" scroll={false} className={`hover:text-cyan-600 ${lang === 'pt-br' ? 'font-bold' : ''}`}>Português (Brasil)</Link> | <Link href="?lang=en" scroll={false} className={`hover:text-cyan-600 ${lang === 'en' ? 'font-bold' : ''}`}>English</Link>
         </div>
-      </nav>
-      <div className='text-gray-800 m-5 mt-14'>
         <div className='flex items-center text-center flex-col mb-10'>
           <Image src={"/profile.jpeg"} alt='Foto de perfil' width={200} height={200} className='rounded-full my-3' />
           <h1 className='text-2xl sm:text-3xl font-extrabold mb-2'>Rodrigo Paula da Silva</h1>
@@ -94,14 +91,10 @@ export default async function Home({
             </ul>
           </div>
         </div>
-      </div>
-
-      <footer className='w-100 bg-slate-800 text-white py-10 px-4'>
-        <div className='max-w-xl m-auto'>
-          <h2 className='text-xl font-extrabold'>{dict.contato.titulo}</h2>
-          <p>Email: rodrigops.dev@gmail.com</p>
+        <div className='max-w-xl m-auto mb-20'>
+          <p>{dict.contato.titulo}: rodrigops.dev@gmail.com</p>
         </div>
-      </footer>
+      </div>
     </main>
   )
 }
