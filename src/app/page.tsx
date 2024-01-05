@@ -17,7 +17,7 @@ export default async function Home({
       <nav className='fixed bg-slate-800 w-full h-10 top-0 flex justify-between items-center text-white text-sm px-5 gap-3'>
         <div>Rodrigo Paula da Silva <span className='hidden sm:inline-block'>| Software Engineer | Full Stack Web Developer</span></div>
         <div>
-          <Link href="?lang=pt-br">BR</Link> | <Link href="?lang=en">EN</Link>
+          <Link href="?lang=pt-br" scroll={false}>BR</Link> | <Link href="?lang=en" scroll={false}>EN</Link>
         </div>
       </nav>
       <div className='text-gray-800 m-5 mt-14'>
