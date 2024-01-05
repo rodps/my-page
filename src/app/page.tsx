@@ -15,15 +15,15 @@ export default async function Home({
   return (
     <main>
       <nav className='fixed bg-slate-800 w-full h-10 top-0 flex justify-between items-center text-white text-sm px-5 gap-3'>
-        <div>Rodrigo Paula da Silva | Software Engineer | Full Stack Web Developer</div>
+        <div>Rodrigo Paula da Silva <span className='hidden sm:inline-block'>| Software Engineer | Full Stack Web Developer</span></div>
         <div>
           <Link href="?lang=pt-br">BR</Link> | <Link href="?lang=en">EN</Link>
         </div>
       </nav>
-      <div className='text-gray-800 m-10 mt-14'>
-        <div className='flex items-center flex-col mb-10'>
+      <div className='text-gray-800 m-5 mt-14'>
+        <div className='flex items-center text-center flex-col mb-10'>
           <Image src={"/profile.jpeg"} alt='Foto de perfil' width={200} height={200} className='rounded-full my-3' />
-          <h1 className='text-3xl font-extrabold mb-2'>Rodrigo Paula da Silva</h1>
+          <h1 className='text-2xl sm:text-3xl font-extrabold mb-2'>Rodrigo Paula da Silva</h1>
           <p>{dict.resumo.titulo}</p>
           <p>{dict.resumo.subtitulo}</p>
           <div className='flex gap-3 mt-3 items-center'>
@@ -81,24 +81,22 @@ export default async function Home({
               <li>NestJS</li>
               <li>React</li>
               <li>Typescript</li>
+              <li>Jest</li>
+              <li>AWS</li>
             </ul>
             <ul>
-              <li>Jest</li>
               <li>PHP</li>
               <li>Laravel</li>
               <li>MySQL</li>
               <li>Docker</li>
-            </ul>
-            <ul>
               <li>Git</li>
-              <li>AWS</li>
               <li>Spring Boot</li>
             </ul>
           </div>
         </div>
       </div>
 
-      <footer className='w-100 bg-slate-800 text-white py-10'>
+      <footer className='w-100 bg-slate-800 text-white py-10 px-4'>
         <div className='max-w-xl m-auto'>
           <h2 className='text-xl font-extrabold'>{dict.contato.titulo}</h2>
           <p>Email: rodrigops.dev@gmail.com</p>
