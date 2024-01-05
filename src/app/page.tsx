@@ -16,7 +16,7 @@ export default async function Home({
     <main>
       <div className='text-gray-800 m-5 mt-10'>
         <div className='max-w-xl m-auto mb-10'>
-          <Link href="?lang=pt-br" scroll={false} className={`hover:text-cyan-600 ${lang === 'pt-br' ? 'font-bold' : ''}`}>Português (Brasil)</Link> | <Link href="?lang=en" scroll={false} className={`hover:text-cyan-600 ${lang === 'en' ? 'font-bold' : ''}`}>English</Link>
+          <Link href="?lang=pt-br" scroll={false} className={`${lang === 'pt-br' ? 'font-bold' : 'hover:text-slate-500'}`}>Português (Brasil)</Link> | <Link href="?lang=en" scroll={false} className={`${lang === 'en' ? 'font-bold' : 'hover:text-slate-500'}`}>English</Link>
         </div>
         <div className='flex items-center text-center flex-col mb-10'>
           <Image src={"/profile.jpeg"} alt='Foto de perfil' width={200} height={200} className='rounded-full my-3' />
@@ -24,14 +24,14 @@ export default async function Home({
           <p>{dict.resumo.titulo}</p>
           <p>{dict.resumo.subtitulo}</p>
           <div className='flex gap-3 mt-3 items-center'>
-            <a href="https://www.linkedin.com/in/rodrigopsdev" className='link'>
+            <a href="https://www.linkedin.com/in/rodrigopsdev" className='hover:text-slate-500'>
               <FontAwesomeIcon icon={faLinkedin} width={18} />
             </a>
-            <a href="https://www.github.com/rodps" className='link'>
+            <a href="https://www.github.com/rodps" className='hover:text-slate-500'>
               <FontAwesomeIcon icon={faGithub} width={18} />
             </a>
             <a href="mailto:rodrigops.dev@gmail.com">
-              <FontAwesomeIcon icon={faEnvelope} width={18} className='link' />
+              <FontAwesomeIcon icon={faEnvelope} width={18} className='hover:text-slate-500' />
             </a>
           </div>
         </div>
